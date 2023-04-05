@@ -1,18 +1,33 @@
 # Game of live
 
-## C program - visualization of the "Game of Life"
+## Overview
+C program - visualization of the "Game of Life"
 
-To start use input redirection from a file.
+## Compilation
+
+```
+gcc game_of_life.c
+```
+
+
+
+## Run
+Use input redirection from a file to start the game.
 
 ```
 a.out < files/gliders.txt
 ```
 
-Doesn't work on windows
+
+## Supported operating systems
+Windows is not supported
 
 ```
 freopen("/dev/tty","r",stdin)
 ```
+
+
+## Game description
 
 The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine.
 
